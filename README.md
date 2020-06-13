@@ -1,6 +1,10 @@
 # Fonte de Tensão
 
-[Link do Falstad](http://tinyurl.com/yc9d8eau)
+Projeto de uma fonte de tensão realizada para a disciplina de [Eletrônica para Computação](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=SSC0180&codcur=55041&codhab=0) do curso de Ciências de Computação do ICMC-USP, ministrada por Eduardo Valle Simões.
+
+## Especificações
+
+> Construir uma fonte de tensão regulada, ajustável, com onda completa, que receba 127V e tenha como saída de 3V até 12V, fornecendo 100mA a 12V.
 
 ## Introdução aos componentes
 
@@ -28,11 +32,13 @@ Foto aqui.
 
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
-Fonte de alimentação | 127V / 60Hz | Requisito do trabalho |  |
 [Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
 Diodo (x4) |  |  |  
 [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) | 330uf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
-
+Resistor (1) | 470k | Mantém a corrente sobre o Zener menor que 20mA | R$3,32
+Resistor (2) | 2.2k | Mantém a corrente sobre o capacitor a | R$3,32
+Diodo Zener | 13V / xW | "Corta" a tensão a 13V | R$3,32
+Transistor | | |
 
 ## Autoria
 
