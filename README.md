@@ -5,5 +5,5 @@
 ## Autoria
 
 [Matheus Henrique de C. Pinto](https://github.com/cerqueiramatheus)
-
+\n
 [Pedro Lucas M. de Castro](https://github.com/pedrolmcastro)
