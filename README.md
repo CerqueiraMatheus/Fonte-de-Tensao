@@ -2,10 +2,10 @@
 
 [Link do Falstad](http://tinyurl.com/yc9d8eau)
 
-## Componentes
+## Introdução aos componentes
 
-Nome                 | Funcionalidade
-:-------------------|:--------------------------
+Nome                 | Funcionalidade básica
+:--------------------|:--------------------------
 [Fonte de alimentação](https://pt.wikipedia.org/wiki/Fonte_de_alimenta%C3%A7%C3%A3o) | Prover energia ao circuito
 [Transformador](https://pt.wikipedia.org/wiki/Transformador) | Tratar a energia para o circuito
 [Diodo](https://pt.wikipedia.org/wiki/Diodo_semicondutor) | Fazer com que a corrente flua num sentido só
@@ -16,6 +16,15 @@ Nome                 | Funcionalidade
 [Potenciômetro](https://pt.wikipedia.org/wiki/Potenci%C3%B4metro) | Ajustar a corrente num circuito
 [Transistor](https://pt.wikipedia.org/wiki/Trans%C3%ADstor) | "Amplificar" / barrar a corrente
 
+## Circuito
+
+Foto aqui.
+
+## Componentes do circuito
+
+Nome | Especificação básica | Justificativa
+:----|:---------------------|:--------------
+Fonte de alimentação | <p>Entrada: 127V/220V</p> <p>Saída: 12V+12V 500mA</p> | Custo baixo e reusabilidade
 
 ## Autoria
 
