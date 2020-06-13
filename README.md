@@ -4,6 +4,8 @@
 
 ## Introdução aos componentes
 
+*Clique no nome do elemento para mais informações.*
+
 Nome                 | Funcionalidade básica
 :--------------------|:--------------------------
 [Fonte de alimentação](https://pt.wikipedia.org/wiki/Fonte_de_alimenta%C3%A7%C3%A3o) | Prover energia ao circuito
@@ -22,9 +24,15 @@ Foto aqui.
 
 ## Componentes do circuito
 
-Nome | Especificação básica | Justificativa
-:----:|:---------------------:|:--------------:
-Fonte de alimentação | Entrada: 127V/220V<br></br>Saída: 12V+12V 500mA | Custo baixo e reusabilidade
+*Clique no nome do elemento para acessar a loja.*
+
+Nome | Especificação básica | Justificativa | Valor
+:----:|:-------------------:|:-------------:|:------:
+Fonte de alimentação | 127V / 60Hz | Requisito do trabalho |  |
+[Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
+Diodo (x4) |  |  |  
+[Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) | 330uf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
+
 
 ## Autoria
 
