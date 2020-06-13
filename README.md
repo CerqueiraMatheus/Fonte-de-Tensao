@@ -37,11 +37,11 @@ Nome | Especificação básica | Justificativa | Valor
 [Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
 Diodo (x4) |  |  |  
 [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) | 330uf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
-Resistor (1) | 470k | Mantém a corrente sobre o Zener menor que 20mA | 
-Resistor (2) | 2.2k |  | 
+Resistor (1) | 470k | Mantém a corrente sobre o Zener menor que 20mA |  
 Diodo Zener | 13V | "Corta" a tensão a 13V | 
-Potenciômetro | 5k | | 
-Transistor | | |
+[Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html) | 5k | Mantém a tensão entre 0V e 12V | R$1,09
+Resistor (2) | 2.2k | Adapta o potenciômetro para 2.2k a 5k (e mantém a tensão de 3V a 12V) | 
+[Transistor](https://www.baudaeletronica.com.br/transistor-npn-2n3904.html) | | Captar a tensão e corrente separadamente entre 1 e 2 | R$0,17
 
 ## Autoria
 
