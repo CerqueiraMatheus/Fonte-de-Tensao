@@ -14,7 +14,7 @@
 #define CORRENTE_SAIDA 0.1
 
 //Ripple em Volts
-#define RIPPLE 1
+#define RIPPLE 18.0
 
 /**
  * 

@@ -5,7 +5,7 @@
 ## Componentes
 
 Nome                 | Funcionalidade
-:-------------------:|:--------------------------:
+:-------------------|:--------------------------
 [Fonte de alimentação](https://pt.wikipedia.org/wiki/Fonte_de_alimenta%C3%A7%C3%A3o) | Prover energia ao circuito
 [Transformador](https://pt.wikipedia.org/wiki/Transformador) | Tratar a energia para o circuito
 [Diodo](https://pt.wikipedia.org/wiki/Diodo_semicondutor) | Fazer com que a corrente flua num sentido só
