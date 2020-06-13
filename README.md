@@ -24,7 +24,7 @@ Foto aqui.
 
 Nome | Especificação básica | Justificativa
 :----:|:---------------------:|:--------------:
-Fonte de alimentação |<p>Entrada: 127V/220V</p><p>Saída: 12V+12V 500mA</p>| Custo baixo e reusabilidade
+Fonte de alimentação | Entrada: 127V/220V<br></br>Saída: 12V+12V 500mA | Custo baixo e reusabilidade
 
 ## Autoria
 
