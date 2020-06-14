@@ -28,7 +28,7 @@ Nome                 | Funcionalidade básica
 
 <div align="center">
 <p float="left">
-  <img src="/image.png" width="900" />
+  <img src="/image_agora_vai.png" width="900" />
 </p>
 </div>
 
