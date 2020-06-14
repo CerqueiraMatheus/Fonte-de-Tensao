@@ -10,7 +10,7 @@
 #define FREQUENCIA_ENTRADA 60.0
 
 //Saída esperada
-#define TENSAO_SAIDA 12.0
+#define TENSAO_SAIDA 25.0
 #define CORRENTE_SAIDA 0.1
 
 //Ripple em Volts
