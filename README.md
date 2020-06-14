@@ -19,7 +19,7 @@ Nome                 | Funcionalidade básica
 [Capacitor](https://pt.wikipedia.org/wiki/Capacitor) | Armazenar quantidades de energia
 [Resistor](https://pt.wikipedia.org/wiki/Resistor) | Limitar a corrente num circuito
 [Diodo Zener](https://pt.wikipedia.org/wiki/Diodo_Zener) | Regula a tensão
-[Potenciômetro](https://pt.wikipedia.org/wiki/Potenci%C3%B4metro) | Ajustar a corrente num circuito
+[Potenciômetro](https://pt.wikipedia.org/wiki/Potenci%C3%B4metro) | "Divide" a tensão num circuito
 [Transistor](https://pt.wikipedia.org/wiki/Trans%C3%ADstor) | "Amplificar" / barrar a corrente
 
 ## Circuito
@@ -34,7 +34,7 @@ Link do vídeo aqui.
 
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
-[Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
+[Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | 1. Custo baixo e reusabilidade 2. Teste| R$22,23
 Diodo (x4) |  |  |  
 [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) | 330uf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
 Resistor (1) | 470k | Mantém a corrente sobre o Zener menor que 20mA |  
