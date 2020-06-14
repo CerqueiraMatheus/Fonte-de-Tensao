@@ -24,9 +24,13 @@ Nome                 | Funcionalidade básica
 
 ## Circuito
 
-[Teste o circuito no Falstad clicando aqui](http://tinyurl.com/yco6ysru).
+[Teste o circuito no Falstad clicando aqui](http://tinyurl.com/ya5uxd8u).
 
-Foto aqui.
+<div align="center">
+<p float="left">
+  <img src="/image.png" width="600" />
+</p>
+</div>
 
 Link do vídeo aqui.
 
