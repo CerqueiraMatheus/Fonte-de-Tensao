@@ -47,7 +47,7 @@ Nome | Especificação básica | Justificativa | Valor
 [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html) | 13V / 1W | "Corta" a tensão a 13V | R$0,20
 [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html) | 10k | Mantém a tensão entre 0V e 12V | R$1,46
 [Resistor (2)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6k | Adapta o potenciômetro para 5.6k a 10k (e mantém a tensão de 3V a 12V) | R$0,08
-[Transistor](https://www.baudaeletronica.com.br/transistor-npn-2n3904.html) | | Captar a tensão e corrente separadamente entre 1 e 2 | R$0,17
+[Transistor](https://www.baudaeletronica.com.br/transistor-npn-2n3904.html) | Corrente máxima no coletor de 200mA e tensão máxima do coletor maior que 25V | Captar a tensão e corrente separadamente entre 1 e 2 | R$0,17
 
 ## Autoria
 
