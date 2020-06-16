@@ -32,7 +32,7 @@ Nome                 | Funcionalidade básica
 </p>
 </div>
 
-Link do vídeo aqui.
+[Acesse o vídeo no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
 
 ## Componentes do circuito
 
