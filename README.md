@@ -22,7 +22,7 @@ Nome                 | Funcionalidade básica
 [Potenciômetro](https://pt.wikipedia.org/wiki/Potenci%C3%B4metro) | "Divide" a tensão num circuito
 [Transistor](https://pt.wikipedia.org/wiki/Trans%C3%ADstor) | "Amplificar" / barrar a corrente
 
-## Circuito
+## Foto do Circuito
 
 <div align="center">
 <p float="left">
@@ -31,12 +31,12 @@ Nome                 | Funcionalidade básica
 </div>
 
 
-### Links
+## Explicações
 
-[Teste o circuito no Falstad clicando aqui](http://tinyurl.com/y7pqhdzm).
+Construímos o projeto no Falstad, ferramenta online. [Teste o circuito no Falstad clicando aqui](http://tinyurl.com/y7pqhdzm).
 
 
-[Acesse o vídeo no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
+O circuito completo está explicado em vídeo. [Acesse o vídeo no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
 
 ## Componentes do circuito
 
