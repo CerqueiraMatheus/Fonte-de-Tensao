@@ -33,10 +33,10 @@ Nome                 | Funcionalidade básica
 
 ## Explicações
 
-Construímos o projeto no Falstad, ferramenta online. [Teste o circuito no Falstad clicando aqui](http://tinyurl.com/y7pqhdzm).
+Construímos o projeto na ferramenta online Falstad: [Teste o circuito no Falstad clicando aqui](http://tinyurl.com/y7pqhdzm).
 
 
-O circuito completo está explicado em vídeo. [Acesse o vídeo no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
+O circuito completo está explicado em vídeo: [Acesse o vídeo no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
 
 ## Componentes do circuito
 
