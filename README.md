@@ -4,7 +4,7 @@ Projeto de uma fonte de tensão realizada para a disciplina de [Eletrônica para
 
 ## Especificações
 
-> Construir uma fonte de tensão regulada, ajustável, com onda completa, que receba 127V e tenha como saída de 3V até 12V, fornecendo 100mA a 12V.
+> Construir uma fonte de tensão regulada, ajustável, com onda completa, que receba 127V ou 220V e tenha como saída de 3V até 12V, fornecendo 100mA a 12V.
 
 ## Introdução aos componentes
 
@@ -40,7 +40,7 @@ O circuito completo está explicado em vídeo: [Acesse o vídeo no YouTube clica
 
 ## Componentes do circuito
 
-*Clique no nome do elemento para acessar a loja.*
+*Clique no nome do elemento para acessá-lo na loja (Baú da Eletrônica).*
 
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
