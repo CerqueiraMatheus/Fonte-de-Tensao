@@ -57,7 +57,7 @@ Nome | Especificação básica | Justificativa | Valor
 [Resistor (2)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6k | Adapta o potenciômetro para 5.6k a 10k (e mantém a tensão de 3V a 12V) | R$0,08
 [Transistor](https://www.baudaeletronica.com.br/transistor-npn-2n3904.html)¹ | Corrente máxima no coletor de 200mA e tensão máxima do coletor 40V | Suporta os 25V no coletor e tem mínimo de 0,25mA na base | R$0,17
 
-*Os componentes marcados têm características superiores às necessárias, mas por razões de disponibilidade na loja escolhida, foram selecionados.*
+*¹Os componentes marcados têm características superiores às necessárias, mas por razões de disponibilidade na loja escolhida, foram selecionados.*
 
 ## Autoria
 
