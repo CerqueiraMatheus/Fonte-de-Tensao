@@ -33,18 +33,18 @@ Nome                 | Funcionalidade básica
 
 ## Produções
 
-1. Construímos o projeto no Falstad, ferramenta online. [Teste o circuito no Falstad clicando aqui](http://tinyurl.com/y7pqhdzm).
+1. Construímos o projeto na ferramenta online Falstad: [teste o circuito no Falstad clicando aqui](http://tinyurl.com/y7pqhdzm).
 
 
-1. O circuito completo está explicado em vídeo. [Acesse o vídeo no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
+2. O circuito completo está explicado em vídeo: [acesse-o no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
 
-1. Elaboramos o projeto no Eagle para impressão da placa. Os arquivos estão nomeados com "fonte-de-tensao" na raiz desta página.
+3. Elaboramos o projeto no Eagle para impressão da placa. Os arquivos estão nomeados com "fonte-de-tensao" na raiz desta página.
 
-1. Por fim, tentamos aplicar os cálculos para o regulador de tensão previstos no livro base da disciplina na linguagem C. Os resultados conferem com os do livro, mas sob análise, produzem valores irreais para o projeto. O arquivo referente está nomeado como "calculator.c". 
+4. Por fim, tentamos aplicar os cálculos para o regulador de tensão previstos no livro base da disciplina na linguagem C. Os resultados conferem com os do livro, mas sob análise, produzem valores irreais para o projeto. O arquivo referente está nomeado como "calculator.c". 
 
 ## Componentes do circuito
 
-*Clique no nome do elemento para acessar a loja.*
+*Clique no nome do elemento para acessá-lo na loja escolhida (Baú da Eletrônica).*
 
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
