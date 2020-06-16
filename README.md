@@ -51,4 +51,7 @@ Nome | Especificação básica | Justificativa | Valor
 
 ## Autoria
 
-[Matheus Henrique de C. Pinto](https://github.com/cerqueiramatheus) e [Pedro Lucas M. de Castro](https://github.com/pedrolmcastro).
+[Matheus Henrique de C. Pinto](https://github.com/cerqueiramatheus) nUSP: 11911104.
+
+
+[Pedro Lucas M. de Castro](https://github.com/pedrolmcastro) nUSP: 11795784.
