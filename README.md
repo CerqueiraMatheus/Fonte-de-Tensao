@@ -40,13 +40,13 @@ Link do vídeo aqui.
 
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
-[Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade| R$22,23
-Diodo (x4) |  |  |  
+[Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
+[Diodo](https://www.baudaeletronica.com.br/diodo-1n5404.html) (x4) | 3A / 400V | Suficiente para a corrente na ponte | R$1,44 
 [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) | 330uf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
-Resistor (1) | 2.2k | Mantém a corrente sobre o Zener menor que 3mA |  
-Diodo Zener | 13V / 1W | "Corta" a tensão a 13V | 
+[Resistor (1)](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html) | 2.2k | Mantém a corrente sobre o Zener menor que 3mA | R$0,08
+[Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html) | 13V / 1W | "Corta" a tensão a 13V | R$0,20
 [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html) | 10k | Mantém a tensão entre 0V e 12V | R$1,46
-Resistor (2) | 5.6k | Adapta o potenciômetro para 5.6k a 10k (e mantém a tensão de 3V a 12V) | 
+[Resistor (2)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6k | Adapta o potenciômetro para 5.6k a 10k (e mantém a tensão de 3V a 12V) | R$0,08
 [Transistor](https://www.baudaeletronica.com.br/transistor-npn-2n3904.html) | | Captar a tensão e corrente separadamente entre 1 e 2 | R$0,17
 
 ## Autoria
