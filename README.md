@@ -45,7 +45,7 @@ O circuito completo está explicado em vídeo. [Acesse o vídeo no YouTube clica
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
 [Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
-[Diodo](https://www.baudaeletronica.com.br/diodo-1n5404.html) (x4) | 3A / 400V | Suficiente para a corrente na ponte | R$1,44 
+[Diodo (4x)](https://www.baudaeletronica.com.br/diodo-1n5404.html) | 3A / 400V | Suficiente para a corrente na ponte | R$1,44 
 [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) | 330uf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
 [Resistor (1)](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html) | 2.2k | Mantém a corrente sobre o Zener menor que 3mA | R$0,08
 [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html) | 13V / 1W | "Corta" a tensão a 13V | R$0,20
