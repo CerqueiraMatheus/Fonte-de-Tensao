@@ -51,7 +51,7 @@ Nome | Especificação básica | Justificativa | Valor
 
 ## Autoria
 
-[Matheus Henrique de C. Pinto](https://github.com/cerqueiramatheus) n°USP: 11911104.
+[Matheus Henrique de C. Pinto](https://github.com/cerqueiramatheus) n° USP: 11911104.
 
 
-[Pedro Lucas M. de Castro](https://github.com/pedrolmcastro) n°USP: 11795784.
+[Pedro Lucas M. de Castro](https://github.com/pedrolmcastro) n° USP: 11795784.
