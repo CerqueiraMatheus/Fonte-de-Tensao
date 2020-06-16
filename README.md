@@ -4,7 +4,7 @@ Projeto de uma fonte de tensão realizada para a disciplina de [Eletrônica para
 
 ## Especificações
 
-> Construir uma fonte de tensão regulada, ajustável, com onda completa, que receba 127V ou 220V e tenha como saída de 3V até 12V, fornecendo 100mA a 12V.
+> Construir uma fonte de tensão regulada, ajustável, com onda completa, que receba 127V a 220V e tenha como saída de 3V até 12V, fornecendo 100mA a 12V.
 
 ## Introdução aos componentes
 
@@ -31,27 +31,33 @@ Nome                 | Funcionalidade básica
 </div>
 
 
-## Explicações
+## Produções
 
-Construímos o projeto na ferramenta online Falstad: [Teste o circuito no Falstad clicando aqui](http://tinyurl.com/y7pqhdzm).
+Construímos o projeto no Falstad, ferramenta online. [Teste o circuito no Falstad clicando aqui](http://tinyurl.com/y7pqhdzm).
 
 
-O circuito completo está explicado em vídeo: [Acesse o vídeo no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
+O circuito completo está explicado em vídeo. [Acesse o vídeo no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
+
+Elaboramos o projeto no Eagle para impressão da placa. Os arquivos estão nomeados com "fonte-de-tensao" na raiz desta página.
+
+Por fim, tentamos aplicar os cálculos para o regulador de tensão previstos no livro base da disciplina na linguagem C. Os resultados conferem com os do livro, mas sob análise, produzem valores irreais para o projeto. O arquivo referente está nomeado como "calculator.c". 
 
 ## Componentes do circuito
 
-*Clique no nome do elemento para acessá-lo na loja (Baú da Eletrônica).*
+*Clique no nome do elemento para acessar a loja.*
 
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
 [Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
-[Diodo (4x)](https://www.baudaeletronica.com.br/diodo-1n5404.html) | 3A / 400V | Suficiente para a corrente na ponte | R$1,44 
-[Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) | 330uf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
+[Diodo](https://www.baudaeletronica.com.br/diodo-1n5404.html) (x4)¹ | 3A / 400V | Suficiente para a corrente na ponte | R$1,44 
+[Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html)¹ | 330uf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
 [Resistor (1)](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html) | 2.2k | Mantém a corrente sobre o Zener menor que 3mA | R$0,08
 [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html) | 13V / 1W | "Corta" a tensão a 13V | R$0,20
 [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html) | 10k | Mantém a tensão entre 0V e 12V | R$1,46
 [Resistor (2)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6k | Adapta o potenciômetro para 5.6k a 10k (e mantém a tensão de 3V a 12V) | R$0,08
-[Transistor](https://www.baudaeletronica.com.br/transistor-npn-2n3904.html) | Corrente máxima no coletor de 200mA e tensão máxima do coletor 40V | Suporta os 25V no coletor e tem mínimo de 0,25mA na base | R$0,17
+[Transistor](https://www.baudaeletronica.com.br/transistor-npn-2n3904.html)¹ | Corrente máxima no coletor de 200mA e tensão máxima do coletor 40V | Suporta os 25V no coletor e tem mínimo de 0,25mA na base | R$0,17
+
+*Os componentes marcados têm características superiores às necessárias, mas por razões de disponibilidade na loja escolhida, foram selecionados.*
 
 ## Autoria
 
