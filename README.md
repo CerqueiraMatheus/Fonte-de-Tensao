@@ -30,6 +30,13 @@ Nome                 | Funcionalidade básica
 </p>
 </div>
 
+## PCB do Circuito
+
+<div align="center">
+<p float="left">
+  <img src="/imagem-eagle.png" width="900" />
+</p>
+</div>
 
 ## Produções
 
