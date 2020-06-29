@@ -33,14 +33,18 @@ Nome                 | Funcionalidade básica
 
 ## Produções
 
-1. Construímos o projeto na ferramenta online Falstad: [teste o circuito no Falstad clicando aqui](http://tinyurl.com/y7pqhdzm).
+1. Aplicamos cálculos referentes à Fonte de Tensão de Onda Completa (sem regulação) com base no livro base da disciplina. Para facilitar, fizemos um compilado num [código em C](calculator.c). Dele, partindo de uma saída esperada de 25V (referente ao transformador) e 0,11A (suficiente para o circuito), combinadas a um ripple de 2,5V extraímos:
+
+* A relação do transformador (0,1534);
+* As tensões de pico (179V no primário e 27V no secundário);
+* O capacitor ideal (> 314µF).
+  
+2. Construímos o projeto na ferramenta online Falstad: [teste o circuito no Falstad clicando aqui](http://tinyurl.com/ybr8kftz).
 
 
-2. O circuito completo está explicado em vídeo: [acesse-o no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
+3. O circuito completo está explicado em vídeo: [acesse-o no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
 
-3. Elaboramos o projeto no Eagle para impressão da placa. Os arquivos estão nomeados com "fonte-de-tensao" na raiz desta página.
-
-4. Por fim, tentamos aplicar os cálculos para o regulador de tensão previstos no livro base da disciplina na linguagem C. Os resultados conferem com os do livro, mas sob análise, produzem valores irreais para o projeto. O arquivo referente está nomeado como "calculator.c". 
+4. Elaboramos o projeto no Eagle para impressão da placa. Os arquivos estão nomeados com "fonte-de-tensao" na raiz desta página.
 
 ## Componentes do circuito
 
@@ -49,9 +53,9 @@ Nome                 | Funcionalidade básica
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
 [Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
-[Diodo](https://www.baudaeletronica.com.br/diodo-1n5404.html) (x4) ¹ | 3A / 400V | Suficiente para a corrente na ponte | R$1,44 
-[Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) ¹ | 330uf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
-[Resistor (1)](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html) | 2.2k | Mantém a corrente sobre o Zener menor que 3mA | R$0,08
+[Diodo](https://www.baudaeletronica.com.br/diodo-1n5404.html) (x4) ¹ | 3A / 400V | Suficiente para a corrente na ponte (aproximadamente 1,3A) | R$1,44 
+[Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) ¹ | 330µf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
+[Resistor (1)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6k | Mantém a corrente sobre o Zener menor que 1mA e maior que 0,25mA (corrente mínima, Izk) | R$0,08
 [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html) | 13V / 1W | "Corta" a tensão a 13V | R$0,20
 [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html) | 10k | Mantém a tensão entre 0V e 12V | R$1,46
 [Resistor (2)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6k | Adapta o potenciômetro para 5.6k a 10k (e mantém a tensão de 3V a 12V) | R$0,08

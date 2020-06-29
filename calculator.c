@@ -11,10 +11,10 @@
 
 //Saída esperada
 #define TENSAO_SAIDA 25.0
-#define CORRENTE_SAIDA 0.1
+#define CORRENTE_SAIDA 0.11
 
 //Ripple em Volts
-#define RIPPLE 1
+#define RIPPLE 2.5
 
 /**
  * 
@@ -40,9 +40,9 @@ int main() {
     printf("=============================\n");
     printf("=========RESULTADOS==========\n");
     printf("Resistência: %.1lfΩ\n", resistencia);
-    printf("Capacitor: %.0lfµF\n", capacitancia * pow(10, 6));
+    printf("Capacitor: %.0lfuF\n", round(capacitancia * pow(10, 6)));
     printf("Diodos: %.3lfA\n", correnteDiodos);
-    printf("Transformador: %lf (%.1lfV/%.1lfV)\n", (1 / relacaoTransformacao), tensaoPicoSecundario, tensaoPicoPrimario);
+    printf("Transformador: %.4lf (%.1lfV/%.1lfV)\n", (1 / relacaoTransformacao), tensaoPicoSecundario, tensaoPicoPrimario);
     printf("=============================\n");
     printf("============PICOS============\n");
     printf("===PRIMÁRIO==================\n-corrente: %.1lfmA\n-tensão: %.2lfV\n", correntePrimario * 1000, tensaoPicoPrimario);
