@@ -26,7 +26,7 @@ Nome                 | Funcionalidade básica
 
 <div align="center">
 <p float="left">
-  <img src="/image_agora_vai.png" width="900" />
+  <img src="/imagem-falstad.png" width="900" />
 </p>
 </div>
 
@@ -39,10 +39,10 @@ Nome                 | Funcionalidade básica
 * As tensões de pico (179V no primário e 27V no secundário);
 * O capacitor ideal (> 314µF).
   
-2. Construímos o projeto na ferramenta online Falstad: [teste o circuito no Falstad clicando aqui](http://tinyurl.com/ybr8kftz).
+2. Construímos o projeto na ferramenta online [Falstad](http://tinyurl.com/ybr8kftz).
 
 
-3. O circuito completo está explicado em vídeo: [acesse-o no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
+3. O circuito completo está explicado em um [vídeo no Youtube](https://youtu.be/U4WBlMqQBTg).
 
 4. Elaboramos o projeto no Eagle para impressão da placa. Os arquivos estão nomeados com "fonte-de-tensao" na raiz desta página.
 
