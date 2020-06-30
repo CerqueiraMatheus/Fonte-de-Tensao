@@ -36,7 +36,7 @@ Nome                 | Funcionalidade básica
 3. Elaboramos uma lista de componentes no Baú da Eletrônica (e adaptamos o projeto no Falstad).
 
 
-4. O circuito completo está explicado em vídeo: [acesse-o no YouTube clicando aqui](https://youtu.be/U4WBlMqQBTg).
+4. O circuito completo está explicado em vídeo: [acesse-o no YouTube clicando aqui](https://youtu.be/ek0Hfe_L8pc).
 
 5. Elaboramos o projeto no Eagle (PCB e Esquemático) para impressão da placa. Os arquivos estão nomeados com "fonte-de-tensao" na raiz desta página.
 
