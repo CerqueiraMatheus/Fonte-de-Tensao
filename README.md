@@ -59,11 +59,8 @@ Como base para o projeto, construímos o seguinte circuito:
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
 [Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
-<<<<<<< HEAD
 [Ponte de Diodos](https://www.baudaeletronica.com.br/ponte-retificadora-kbu1010.html) | 3A / 400V | Suficiente para a corrente na ponte (aproximadamente 1,3A) | R$1,44 
-=======
 [Ponte de Diodos](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html) ¹ | 3A / 400V | Suficiente para a corrente na ponte (aproximadamente 1,3A) | R$3,79 
->>>>>>> 907505139343b0829ddba9a6bd999ed4b59f0249
 [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) ¹ | 330µf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
 [Resistor (1)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6kΩ | Mantém a corrente sobre o Zener menor que 1mA e maior que 0,25mA (corrente mínima, Izk) | R$0,08
 [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html) | 13V / 1W | "Corta" a tensão a 13V | R$0,20
