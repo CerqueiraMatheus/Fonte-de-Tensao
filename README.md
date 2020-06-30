@@ -22,7 +22,15 @@ Nome                 | Funcionalidade básica
 [Potenciômetro](https://pt.wikipedia.org/wiki/Potenci%C3%B4metro) | "Divide" a tensão num circuito
 [Transistor](https://pt.wikipedia.org/wiki/Trans%C3%ADstor) | "Amplificar" / barrar a corrente
 
-## Foto do Circuito
+## Circuito
+
+O projeto, sendo uma Fonte de Tensão de Onda Completa (sem regulação), foi desenvolvido baseado nas informações contidas no livro base da disciplina e teve seus valores calculados com o auxílio de um [código em C](calculator.c). Dele, partindo de uma saída esperada de 25V (referente ao transformador) e 0,11A (suficiente para o circuito), combinadas a um ripple de 2,5V extraímos:
+
+* A relação do transformador (0,1534);
+* As tensões de pico (179V no primário e 27V no secundário);
+* O capacitor ideal (> 314µF).
+
+Uma versão primária foi desenvolvida e simulada na ferramente online [Falstad](http://tinyurl.com/ybr8kftz).
 
 <div align="center">
 <p float="left">
@@ -30,29 +38,24 @@ Nome                 | Funcionalidade básica
 </p>
 </div>
 
+Um vídeo explicando o desenvolvimento do circuito está disponível no [Youtube](https://youtu.be/U4WBlMqQBTg).
+
 ## PCB do Circuito
+
+O PCB foi desenvolvido na ferramenta Eagle onde primeiramente foi feito um esquemático equivalente ao do Falstad, com exceção do Transformador que não está presente e foi substituido por conexões de entrada e saída. Quanto as peças utilizadas, selecionamos as mais próximas às listadas para compra no projeto, sendo que: a Ponte de Diodos e o Transistor NPN são uma representação exatas, o Diodo Zener tem dimensões idênticas e os outros componentes tem mesmo formato e dimensões muito próximas. Os arquivos estão nomeados utilizados como "fonte-de-tensao" na raiz desta página.
+
+<div align="center">
+<p float="left">
+  <img src="/imagem-eagle-esquematico.png" width="900" />
+</p>
+</div>
 
 <div align="center">
 <p float="left">
   <img src="/imagem-eagle-pcb.png" width="900" />
 </p>
 </div>
-
-## Produções
-
-1. Aplicamos cálculos referentes à Fonte de Tensão de Onda Completa (sem regulação) com base no livro base da disciplina. Para facilitar, fizemos um compilado num [código em C](calculator.c). Dele, partindo de uma saída esperada de 25V (referente ao transformador) e 0,11A (suficiente para o circuito), combinadas a um ripple de 2,5V extraímos:
-
-* A relação do transformador (0,1534);
-* As tensões de pico (179V no primário e 27V no secundário);
-* O capacitor ideal (> 314µF).
   
-2. Construímos o projeto na ferramenta online [Falstad](http://tinyurl.com/ybr8kftz).
-
-
-3. O circuito completo está explicado em um [vídeo no Youtube](https://youtu.be/U4WBlMqQBTg).
-
-4. Elaboramos o projeto no Eagle para impressão da placa. Os arquivos estão nomeados com "fonte-de-tensao" na raiz desta página.
-
 ## Componentes do circuito
 
 *Clique no nome do elemento para acessá-lo na loja escolhida (Baú da Eletrônica).*
@@ -60,7 +63,7 @@ Nome                 | Funcionalidade básica
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
 [Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
-[Diodo (x4)](https://www.baudaeletronica.com.br/diodo-1n5404.html) ¹ | 3A / 400V | Suficiente para a corrente na ponte (aproximadamente 1,3A) | R$1,44 
+[Ponte de Diodos](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html) ¹ | 3A / 400V | Suficiente para a corrente na ponte (aproximadamente 1,3A) | R$3,79 
 [Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) ¹ | 330µf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
 [Resistor (1)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6k | Mantém a corrente sobre o Zener menor que 1mA e maior que 0,25mA (corrente mínima, Izk) | R$0,08
 [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html) | 13V / 1W | "Corta" a tensão a 13V | R$0,20
