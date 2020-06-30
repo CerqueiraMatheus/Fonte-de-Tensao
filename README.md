@@ -97,7 +97,7 @@ Caso queira construir este projeto, recomendamos, além dos links já disponibil
 
 1. [Acesse a página da disciplina no GitLab](https://gitlab.com/simoesusp/disciplinas/-/tree/master/SSC0180-Eletronica-para-Computacao);
 
-2. [Leia o livro base da disciplina](https://www.amazon.com.br/Eletr%C3%B4nica-B%C3%A1sica-Computa%C3%A7%C3%A3o-Annibal-Junior/dp/8521616996)
+2. [Leia o livro base da disciplina](https://www.amazon.com.br/Eletr%C3%B4nica-B%C3%A1sica-Computa%C3%A7%C3%A3o-Annibal-Junior/dp/8521616996).
 
 ## Autoria
 
