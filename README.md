@@ -59,12 +59,12 @@ Como base para o projeto, construímos o seguinte circuito:
 Nome | Especificação básica | Justificativa | Valor
 :----:|:-------------------:|:-------------:|:------:
 [Transformador](https://www.baudaeletronica.com.br/transformador-trafo-12v-12v-500ma-110-220vac.html) | Entrada: 127V/220V / Saída: 12V+12V 500mA | Custo baixo e reusabilidade | R$22,23
-[Ponte de Diodos ¹](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html) ¹ | 3A / 400V | Suficiente para a corrente na ponte (aproximadamente 1,3A) | R$3,79 
-[Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) ¹ | 330µf / 100V | Suficiente para suportar a entrada e armazenar a energia | R$3,32
+[Ponte de Diodos](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html) ¹ | 10A / 1000V | Suficiente para a corrente na ponte (aproximadamente 1,3A) | R$3,79 
+[Capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-100v.html) ¹ | 330µF / 100V | Suficiente para suportar a entrada (~27V e 1,3A) e prover energia regulada para o circuito | R$3,32
 [Resistor (1)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6kΩ | Mantém a corrente sobre o Zener menor que 1mA e maior que 0,25mA (corrente mínima, Izk) | R$0,08
 [Diodo Zener](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html) | 13V / 1W | "Corta" a tensão a 13V | R$0,20
 [Potenciômetro](https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html) | 10kΩ | Mantém a tensão entre 0V e 12V | R$1,46
-[Resistor (2)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6kΩ | Adapta o potenciômetro para 5.6k a 10k (e mantém a tensão de 3V a 12V) | R$0,08
+[Resistor (2)](https://www.baudaeletronica.com.br/resistor-5k6-5-1-4w.html) | 5.6kΩ | Adapta o potenciômetro e mantém a tensão de 3V a 12V | R$0,08
 [Transistor](https://www.baudaeletronica.com.br/transistor-npn-2n3904.html) ¹ | Corrente máxima no coletor de 200mA e tensão máxima do coletor 40V | Suporta os 25V no coletor e tem mínimo de 0,25mA na base | R$0,17
 
 *¹ Os componentes marcados têm características superiores às necessárias, mas por razões de disponibilidade na loja escolhida, foram selecionados.*
