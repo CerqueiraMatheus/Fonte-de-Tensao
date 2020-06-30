@@ -83,7 +83,7 @@ A representação da Ponte de Diodos KBPC1010 é customizada, de autoria de Sama
 
 ## PCB do circuito no Eagle
 
-A partir do Esquemático, construímos o PCB para a impressão do circuito.
+A partir do Esquemático, por fim, construímos o PCB para a impressão do circuito.
 
 <div align="center">
 <p float="left">
