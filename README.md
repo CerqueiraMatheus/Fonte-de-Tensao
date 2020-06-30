@@ -34,7 +34,7 @@ Nome                 | Funcionalidade básica
 
 <div align="center">
 <p float="left">
-  <img src="/imagem-eagle.png" width="900" />
+  <img src="/imagem-eagle-pcb.png" width="900" />
 </p>
 </div>
 
