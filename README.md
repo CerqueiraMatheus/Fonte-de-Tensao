@@ -50,7 +50,7 @@ Como base para o projeto, construímos o seguinte circuito:
 </p>
 </div>
 
-[Acesse o link do Falstad para poder ver e editar a simulação.](http://tinyurl.com/ybr8kftz).
+[Acesse o link do Falstad para poder ver e editar a simulação](http://tinyurl.com/ybr8kftz).
 
 ## Componentes do circuito
 
